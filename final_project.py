@@ -44,9 +44,6 @@ def built_in_search():
   correct_route = []
   i = 1
 
-  # plot the route
-  fig, ax = ox.plot_graph_route(G, route, route_linewidth=6, node_size=0, bgcolor='k')
-
   # Print the names of nodes along the route
   for node in route:
 
@@ -55,6 +52,9 @@ def built_in_search():
         correct_route.append(node)
   print(correct_route)
   print("Number of nodes:", len(correct_route))
+
+ # plot the route
+  fig, ax = ox.plot_graph_route(G, route, route_linewidth=6, node_size=0, bgcolor='k')
 
 
 built_in_search()
