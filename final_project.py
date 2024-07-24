@@ -401,5 +401,4 @@ def test_bidirectional_search():
   fig, ax = ox.plot_graph_route(G, route, route_linewidth=6, node_size=0, bgcolor='k')
 
 test_bidirectional_search()
-# %timeit
 
