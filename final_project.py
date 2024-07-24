@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1qX4wkrAPBhKFiq3sPHQcneUB2_pES09P
 """
 
-# Commented out IPython magic to ensure Python compatibility.
-from google.colab import drive
-drive.mount('/content/drive')
-# %pwd
-# %cd drive/MyDrive/sorting/
-
 import networkx as nx
 import osmnx as ox
 
